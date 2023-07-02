@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 10px; 
+    height: 10vh;
+    padding: 10px;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 70%;
+    width: 50px;
+
+}
+
+header p:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+}
+
+header p:active{
+    background-color: darkgray;
+}
+
+header i{
+    font-size: 90%;
+    border-radius: 30px;
+    padding: 1px;
+    transition: 0.3s;
+}
+
+header i:hover{
+    cursor: pointer;
+    background-color: rgb(rgb(221, 205, 205), green, blue);
+}
+
+
+.buscador{
+    background-image: url(Imagenes/lovepik-magnifier-png-image_401292470_wh1200.png);
+    background-size: 10px 10px;
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    background-color: rgb(224, 217, 217);
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px ;
+    width: 64%;
+    height: 50%;
+
+}
+
+.lupa{
+    position: absolute;
+    top: calc(50%);
+    left: calc(0%+20px);
+}
+
+
+.buscador:focus{
+    border: none;
+}
+
+
+header p:focus{
+    background-color: aquamarine;
+}
+
+.logo {
+    height: 60%;
+    transition: 0.3s;
+    
+}
+
+.Perfil {
+    border-radius: 15px;
+    height: 70px;
+    transition: 0.3s;
+}
+
+
+.logo:hover{
+    cursor: pointer;
+    height: 80%;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(212, 126, 46);
+    background-image: url(./Imagenes/Universo.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+footer {
+    background-color: rgb(205, 135, 50);
+    height: 10vh;
+}
